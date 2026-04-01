@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unattend xmlns="urn:schemas-microsoft-com:unattend" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:ew="urn:schemas-microsoft-com:embedded.unattend.internal.v1">
+    <servicing>
+        <package action="install">
+            <assemblyIdentity name="WinEmb-EmbBootEnv" version="6.1.7601.17514" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" />
+            <source location="%distributionshareroot%\Packages\FeaturePack\x86~winemb-embbootenv~~~~6.1.7601.17514~1.0\winemb-embbootenv.cab" />
+            <ew:packageInfo releaseType="Feature Pack" customInfoVersion="1.0" topLevel="false" />
+        </package>
+        <package action="install">
+            <assemblyIdentity name="WinEmb-Branding-Embedded-Neutral-Package" version="6.1.7601.17514" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" />
+            <source location="%distributionshareroot%\Packages\FeaturePack\x86~winemb-branding-embedded-neutral-package~~~~6.1.7601.17514~1.0\winemb-branding-embedded-neutral-package.cab" />
+            <ew:packageInfo releaseType="Feature Pack" customInfoVersion="1.0" topLevel="false" />
+        </package>
+        <package action="install">
+            <assemblyIdentity name="WinEmb-Interface-Explorer" version="6.1.7600.16385" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" />
+            <source location="%distributionshareroot%\Packages\FeaturePack\x86~winemb-interface-explorer~~~~6.1.7600.16385~1.0\WinEmb-Interface-Explorer.cab" />
+            <ew:packageInfo releaseType="Feature Pack" customInfoVersion="1.0" topLevel="false" />
+        </package>
+        <package action="install">
+            <assemblyIdentity name="WinEmb-usbboot" version="6.1.7601.17514" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" />
+            <source location="%distributionshareroot%\Packages\FeaturePack\x86~winemb-usbboot~~~~6.1.7601.17514~1.0\winemb-usbboot.cab" />
+            <ew:packageInfo releaseType="Feature Pack" customInfoVersion="1.0" topLevel="false" />
+        </package>
+        <package action="install">
+            <assemblyIdentity name="WinEmb-Font-Japanese-Required" version="6.1.7600.16385" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" />
+            <source location="%distributionshareroot%\Packages\FeaturePack\x86~winemb-font-japanese-required~~~~6.1.7600.16385~1.0\WinEmb-Font-Japanese-Required.cab" />
+            <ew:packageInfo releaseType="Feature Pack" customInfoVersion="1.0" topLevel="false" />
+        </package>
+        <package action="install">
+            <assemblyIdentity name="WinEmb-IME-Japanese" version="6.1.7601.17514" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" />
+            <source location="%distributionshareroot%\Packages\FeaturePack\x86~winemb-ime-japanese~~~~6.1.7601.17514~1.0\winemb-ime-japanese.cab" />
+            <ew:packageInfo releaseType="Feature Pack" customInfoVersion="1.0" topLevel="false" />
+        </package>
+        <package action="install">
+            <assemblyIdentity name="WinEmb-IME-Base-Plus-TableDrivenTextServices" version="6.1.7601.17514" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" />
+            <source location="%distributionshareroot%\Packages\FeaturePack\x86~winemb-ime-base-plus-tabledriventextservices~~~~6.1.7601.17514~1.0\winemb-ime-base-plus-tabledriventextservices.cab" />
+            <ew:packageInfo releaseType="Feature Pack" customInfoVersion="1.0" topLevel="false" />
+        </package>
+        <package action="install">
+            <assemblyIdentity name="WinEmb-Font-Japanese-Supplement" version="6.1.7600.16385" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" />
+            <source location="%distributionshareroot%\Packages\FeaturePack\x86~winemb-font-japanese-supplement~~~~6.1.7600.16385~1.0\WinEmb-Font-Japanese-Supplement.cab" />
+            <ew:packageInfo releaseType="Feature Pack" customInfoVersion="1.0" topLevel="false" />
+        </package>
+        <package action="install">
+            <assemblyIdentity name="WinEmb-TextServicesFramework" version="6.1.7600.16385" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" />
+            <source location="%distributionshareroot%\Packages\FeaturePack\x86~winemb-textservicesframework~~~~6.1.7600.16385~1.0\WinEmb-TextServicesFramework.cab" />
+            <ew:packageInfo releaseType="Feature Pack" customInfoVersion="1.0" topLevel="false" />
+        </package>
+        <package action="install">
+            <assemblyIdentity name="WinEmb-SystemManagement-AdminTools" version="6.1.7601.17514" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" />
+            <source location="%distributionshareroot%\Packages\FeaturePack\x86~winemb-systemmanagement-admintools~~~~6.1.7601.17514~1.0\winemb-systemmanagement-admintools.cab" />
+            <ew:packageInfo releaseType="Feature Pack" customInfoVersion="1.0" topLevel="false" />
+        </package>
+        <package action="install">
+            <assemblyIdentity name="WinEmb-Application-UX" version="6.1.7601.17514" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" />
+            <source location="%distributionshareroot%\Packages\FeaturePack\x86~winemb-application-ux~~~~6.1.7601.17514~1.0\winemb-application-ux.cab" />
+            <ew:packageInfo releaseType="Feature Pack" customInfoVersion="1.0" topLevel="false" />
+        </package>
+        <package action="install">
+            <assemblyIdentity name="WinEmb-Shell-Foundation" version="6.1.7601.17514" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" />
+            <source location="%distributionshareroot%\Packages\FeaturePack\x86~winemb-shell-foundation~~~~6.1.7601.17514~1.0\winemb-shell-foundation.cab" />
+            <ew:packageInfo releaseType="Feature Pack" customInfoVersion="1.0" topLevel="false" />
+        </package>
+        <package action="install">
+            <assemblyIdentity name="WinEmb-AppSupport-ComBase" version="6.1.7600.16385" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" />
+            <source location="%distributionshareroot%\Packages\FeaturePack\x86~winemb-appsupport-combase~~~~6.1.7600.16385~1.0\WinEmb-AppSupport-ComBase.cab" />
+            <ew:packageInfo releaseType="Feature Pack" customInfoVersion="1.0" topLevel="false" />
+        </package>
+        <package action="install">
+            <assemblyIdentity name="WinEmb-DriverFoundation" version="6.1.7601.17514" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" />
+            <source location="%distributionshareroot%\Packages\FeaturePack\x86~winemb-driverfoundation~~~~6.1.7601.17514~1.0\winemb-driverfoundation.cab" />
+            <ew:packageInfo releaseType="Feature Pack" customInfoVersion="1.0" topLevel="false" />
+        </package>
+        <package action="install">
+            <assemblyIdentity name="WinEmb-Graphics-Platform" version="6.1.7601.17514" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" />
+            <source location="%distributionshareroot%\Packages\FeaturePack\x86~winemb-graphics-platform~~~~6.1.7601.17514~1.0\winemb-graphics-platform.cab" />
+            <ew:packageInfo releaseType="Feature Pack" customInfoVersion="1.0" topLevel="false" />
+        </package>
+        <package action="install">
+            <assemblyIdentity name="WinEmb-IE-Core" version="6.1.7601.17514" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" />
+            <source location="%distributionshareroot%\Packages\FeaturePack\x86~winemb-ie-core~~~~6.1.7601.17514~1.0\winemb-ie-core.cab" />
+            <ew:packageInfo releaseType="Feature Pack" customInfoVersion="1.0" topLevel="false" />
+        </package>
+        <package action="install">
+            <assemblyIdentity name="WinEmb-Search-Indexing" version="6.1.7601.17514" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" />
+            <source location="%distributionshareroot%\Packages\FeaturePack\x86~winemb-search-indexing~~~~6.1.7601.17514~1.0\winemb-search-indexing.cab" />
+            <ew:packageInfo releaseType="Feature Pack" customInfoVersion="1.0" topLevel="false" />
+        </package>
+        <package action="install">
+            <assemblyIdentity name="WinEmb-Shell-Core" version="6.1.7601.17514" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" />
+            <source location="%distributionshareroot%\Packages\FeaturePack\x86~winemb-shell-core~~~~6.1.7601.17514~1.0\winemb-shell-core.cab" />
+            <ew:packageInfo releaseType="Feature Pack" customInfoVersion="1.0" topLevel="false" />
+        </package>
+        <package action="install">
+            <assemblyIdentity name="WinEmb-AppSupport-Legacy" version="6.1.7601.17514" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" />
+            <source location="%distributionshareroot%\Packages\FeaturePack\x86~winemb-appsupport-legacy~~~~6.1.7601.17514~1.0\winemb-appsupport-legacy.cab" />
+            <ew:packageInfo releaseType="Feature Pack" customInfoVersion="1.0" topLevel="false" />
+        </package>
+        <package action="install">
+            <assemblyIdentity name="WinEmb-AppSupport-ComPlus" version="6.1.7601.17514" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" />
+            <source location="%distributionshareroot%\Packages\FeaturePack\x86~winemb-appsupport-complus~~~~6.1.7601.17514~1.0\winemb-appsupport-complus.cab" />
+            <ew:packageInfo releaseType="Feature Pack" customInfoVersion="1.0" topLevel="false" />
+        </package>
+        <package action="install">
+            <assemblyIdentity name="WinEmb-IE-Foundation" version="6.1.7601.17514" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" />
+            <source location="%distributionshareroot%\Packages\FeaturePack\x86~winemb-ie-foundation~~~~6.1.7601.17514~1.0\winemb-ie-foundation.cab" />
+            <ew:packageInfo releaseType="Feature Pack" customInfoVersion="1.0" topLevel="false" />
+        </package>
+        <package action="install">
+            <assemblyIdentity name="WinEmb-MDAC" version="6.1.7601.17514" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" />
+            <source location="%distributionshareroot%\Packages\FeaturePack\x86~winemb-mdac~~~~6.1.7601.17514~1.0\winemb-mdac.cab" />
+            <ew:packageInfo releaseType="Feature Pack" customInfoVersion="1.0" topLevel="false" />
+        </package>
+        <package action="install">
+            <assemblyIdentity name="WinEmb-Installers-MSI" version="6.1.7601.17514" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" />
+            <source location="%distributionshareroot%\Packages\FeaturePack\x86~winemb-installers-msi~~~~6.1.7601.17514~1.0\winemb-installers-msi.cab" />
+            <ew:packageInfo releaseType="Feature Pack" customInfoVersion="1.0" topLevel="false" />
+        </package>
+        <package action="install">
+            <assemblyIdentity name="WinEmb-FS-Core" version="6.1.7601.17514" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" />
+            <source location="%distributionshareroot%\Packages\FeaturePack\x86~winemb-fs-core~~~~6.1.7601.17514~1.0\winemb-fs-core.cab" />
+            <ew:packageInfo releaseType="Feature Pack" customInfoVersion="1.0" topLevel="false" />
+        </package>
+        <package action="install">
+            <assemblyIdentity name="WinEmb-SDBoot" version="6.1.7601.17514" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" />
+            <source location="%distributionshareroot%\Packages\FeaturePack\x86~winemb-sdboot~~~~6.1.7601.17514~1.0\WinEmb-SDBoot.cab" />
+            <ew:packageInfo releaseType="Feature Pack" customInfoVersion="1.0" />
+        </package>
+        <package action="install">
+            <assemblyIdentity name="WinEmb-Boot-Screen-Filter" version="6.1.7600.16385" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" />
+            <source location="%distributionshareroot%\Packages\FeaturePack\x86~winemb-boot-screen-filter~~~~6.1.7600.16385~1.0\WinEmb-Boot-Screen-Filter.cab" />
+            <ew:packageInfo releaseType="Feature Pack" customInfoVersion="1.0" />
+        </package>
+        <package action="install">
+            <assemblyIdentity name="WinEmb-File-Based-Write-Filter" version="6.1.7601.17514" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" />
+            <source location="%distributionshareroot%\Packages\FeaturePack\x86~winemb-file-based-write-filter~~~~6.1.7601.17514~1.0\winemb-file-based-write-filter.cab" />
+            <ew:packageInfo releaseType="Feature Pack" customInfoVersion="1.0" />
+        </package>
+        <package action="install">
+            <assemblyIdentity name="WinEmb-Font-Western-Required" version="6.1.7600.16385" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" />
+            <source location="%distributionshareroot%\Packages\FeaturePack\x86~winemb-font-western-required~~~~6.1.7600.16385~1.0\WinEmb-Font-Western-Required.cab" />
+            <ew:packageInfo releaseType="Feature Pack" customInfoVersion="1.0" topLevel="false" />
+        </package>
+        <package action="install">
+            <assemblyIdentity name="WinEmb-RegistryFilter" version="6.1.7601.17514" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" />
+            <source location="%distributionshareroot%\Packages\FeaturePack\x86~winemb-registryfilter~~~~6.1.7601.17514~1.0\winemb-registryfilter.cab" />
+            <ew:packageInfo releaseType="Feature Pack" customInfoVersion="1.0" />
+        </package>
+        <package action="install">
+            <assemblyIdentity name="WinEmb-Ramdisk-ROOTENUM" version="6.1.7600.16385" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" />
+            <source location="%distributionshareroot%\Packages\FeaturePack\x86~winemb-ramdisk-rootenum~~~~6.1.7600.16385~1.0\WinEmb-Ramdisk-ROOTENUM.cab" />
+            <ew:packageInfo releaseType="Feature Pack" customInfoVersion="1.0" topLevel="false" />
+        </package>
+        <package action="install">
+            <assemblyIdentity name="WinEmb-INF-compositebus" version="6.1.7601.17514" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" />
+            <source location="%distributionshareroot%\Packages\Driver\x86~winemb-inf-compositebus~~~~6.1.7601.17514~1.0\winemb-inf-compositebus.cab" />
+            <ew:packageInfo releaseType="Driver" customInfoVersion="1.0" topLevel="false" />
+        </package>
+        <package action="install">
+            <assemblyIdentity name="WinEmb-INF-vhdmp" version="6.1.7601.17514" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" />
+            <source location="%distributionshareroot%\Packages\Driver\x86~winemb-inf-vhdmp~~~~6.1.7601.17514~1.0\winemb-inf-vhdmp.cab" />
+            <ew:packageInfo releaseType="Driver" customInfoVersion="1.0" topLevel="false" />
+        </package>
+        <package action="install">
+            <assemblyIdentity name="WinEmb-INF-sdbus" version="6.1.7601.17514" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" />
+            <source location="%distributionshareroot%\Packages\Driver\x86~winemb-inf-sdbus~~~~6.1.7601.17514~1.0\winemb-inf-sdbus.cab" />
+            <ew:packageInfo releaseType="Driver" customInfoVersion="1.0" topLevel="false" />
+        </package>
+        <package action="install">
+            <assemblyIdentity name="WinEmb-INF-sffdisk" version="6.1.7601.17514" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" />
+            <source location="%distributionshareroot%\Packages\Driver\x86~winemb-inf-sffdisk~~~~6.1.7601.17514~1.0\winemb-inf-sffdisk.cab" />
+            <ew:packageInfo releaseType="Driver" customInfoVersion="1.0" topLevel="false" />
+        </package>
+        <package action="install">
+            <assemblyIdentity name="Microsoft-Windows-Embedded-LanguagePack-Package" version="6.1.7601.17514" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="ja-JP" versionScope="nonSxS" />
+            <source location="%distributionshareroot%\Packages\LanguagePack\x86~microsoft-windows-embedded-languagepack-package~ja-jp~~~6.1.7601.17514~1.0\lp.cab" />
+            <ew:packageInfo releaseType="Language Pack" customInfoVersion="1.0" topLevel="false" />
+        </package>
+        <package action="install">
+            <assemblyIdentity name="Microsoft-Windows-Embedded-LanguagePack-Package" version="6.1.7601.17514" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="en-US" versionScope="nonSxS" />
+            <source location="%distributionshareroot%\Packages\LanguagePack\x86~microsoft-windows-embedded-languagepack-package~en-us~~~6.1.7601.17514~1.0\lp.cab" />
+            <ew:packageInfo releaseType="Language Pack" customInfoVersion="1.0" />
+        </package>
+        <package action="configure">
+            <assemblyIdentity name="Microsoft-Windows-EmbeddedEdition" version="6.1.7601.17514" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" />
+            <ew:packageInfo releaseType="Product" customInfoVersion="1.0" />
+        </package>
+    </servicing>
+    <settings pass="specialize">
+        <component name="Microsoft-Windows-SystemRestore-Main" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisableSR>1</DisableSR>
+        </component>
+    </settings>
+    <settings pass="offlineServicing">
+        <component name="Microsoft-Windows-Embedded-Core-Settings" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <EnablePrefetcher>0</EnablePrefetcher>
+            <EnableSuperfetch>0</EnableSuperfetch>
+        </component>
+        <component name="Microsoft-Windows-Kernel-PnP" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <PollBootPartitionTimeout>15000</PollBootPartitionTimeout>
+            <BootDriverFlags>6</BootDriverFlags>
+        </component>
+        <component name="Microsoft-Windows-themeservice" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <Start>2</Start>
+        </component>
+    </settings>
+    <ew:answerFileInfo distributionSharePath="C:\Users\Veronica\Downloads\win7-embed\ISOs\32\DS" footprint="898446193" ecoreFootprint="576716800" installationSandboxFootprint="321729393" />
+</unattend>
