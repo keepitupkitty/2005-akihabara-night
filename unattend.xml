@@ -296,10 +296,9 @@
             <source location="%distributionshareroot%\Packages\LanguagePack\x86~microsoft-windows-embedded-languagepack-package~ja-jp~~~6.1.7601.17514~1.0\lp.cab" />
             <ew:packageInfo releaseType="Language Pack" topLevel="true" customInfoVersion="1.0"></ew:packageInfo>
         </package>
-        <package action="install">
-            <assemblyIdentity name="Microsoft-Windows-Embedded-LanguagePack-Package" version="6.1.7601.17514" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="en-US" versionScope="nonSxS" />
-            <source location="%distributionshareroot%\Packages\LanguagePack\x86~microsoft-windows-embedded-languagepack-package~en-us~~~6.1.7601.17514~1.0\lp.cab" />
-            <ew:packageInfo releaseType="Language Pack" customInfoVersion="1.0" />
+        <package action="configure">
+            <assemblyIdentity name="Microsoft-Windows-EmbeddedEdition" version="6.1.7601.17514" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" />
+            <ew:packageInfo releaseType="Product" customInfoVersion="1.0" />
         </package>
     </servicing>
     <settings pass="offlineServicing">
@@ -321,6 +320,13 @@
         <component name="Microsoft-Windows-SystemRestore-Main" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <DisableSR>1</DisableSR>
         </component>
+        <component name="Microsoft-Windows-International-Core" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <InputLocale>ja-jp</InputLocale>
+            <SystemLocale>ja-jp</SystemLocale>
+            <UILanguage>ja-jp</UILanguage>
+            <UILanguageFallback>ja-jp</UILanguageFallback>
+            <UserLocale>ja-jp</UserLocale>
+        </component>
     </settings>
-    <ew:answerFileInfo distributionSharePath="C:\Users\Veronica\Downloads\win7-embed\ISOs\32\DS" footprint="890217543" installationSandboxFootprint="890217543"></ew:answerFileInfo>
+    <ew:answerFileInfo distributionSharePath="C:\Users\Veronica\Downloads\win7-embed\ISOs\32\DS" footprint="1122446538" installationSandboxFootprint="545729738" ecoreFootprint="576716800"></ew:answerFileInfo>
 </unattend>
