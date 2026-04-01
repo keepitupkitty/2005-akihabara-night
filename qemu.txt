@@ -1,0 +1,5 @@
+qemu\qemu-system-i386.exe -accel tcg,thread=multi -M pc,kernel-irqchip=off -cpu pentium3 -m 1G -device virtio-vga,xres=1024,yres=768 -device sdhci-pci,id=sdhci0 -drive file=sd.raw,if=none,id=drive0 -device sd-card,drive=drive0,bus=sd-bus -device virtio-net,netdev=net -netdev user,id=net -device virtio-sound
+
+qemu\qemu-system-i386.exe -accel tcg,thread=multi -M pc,kernel-irqchip=off -cpu pentium3 -m 1G -device virtio-vga,xres=1024,yres=768 -device sdhci-pci,id=sdhci0 -drive file=sd.raw,if=none,id=drive0 -device sd-card,drive=drive0,bus=sd-bus -device virtio-net,netdev=net -netdev user,id=net -device virtio-sound -drive file=virtio.iso,media=cdrom,readonly=on
+
+qemu\qemu-system-i386.exe -accel tcg,thread=multi -M pc,kernel-irqchip=off -cpu pentium3 -m 1G -device virtio-vga,xres=1024,yres=768 -device sdhci-pci,id=sdhci0 -drive file=sd.raw,if=none,id=drive0 -device sd-card,drive=drive0,bus=sd-bus -device virtio-net,netdev=net -netdev user,id=net -device virtio-sound -drive file=virtio.iso,media=cdrom,readonly=on -drive file=ibw.iso,media=cdrom,readonly=on
