@@ -1,0 +1,1 @@
+oscdimg -n -m -bC:\Users\Veronica\Desktop\86box\ibw\BOOT\ETFSBOOT.COM C:\Users\Veronica\Desktop\86box\ibw ibw.iso
